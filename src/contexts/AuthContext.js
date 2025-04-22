@@ -7,7 +7,7 @@ export const AuthProvider = ({ children }) => {
 
     const login = useCallback(async (username, password) => {
         try {
-            const response = await fetch('https://urban-capybara-wr5gg96pr56r2gj5j-5000.app.github.dev/login', {
+            const response = await fetch('https://urban-capybara-wr5gg96pr56r2gj5j-5000.app.github.dev', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
